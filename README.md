@@ -73,9 +73,6 @@ tabela = tabela.drop("CustomerID", axis=1).dropna()
 
 
 
-# Gráfico de cancelamento por tipo de contrato
-grafico = px.histogram(tabela, x="tipo_contrato", color="cancelou")
-grafico.show()
 
 
 💡 Principais Insights
